@@ -9,6 +9,3 @@ chmod +x ./Atalaya.sh
 
 sudo ./Atalaya.sh
 
-# Nota para arreglar/añadir
-
-//Buscar forma de añadir variable al comando curl para que el usuario pueda ingresar nombre sin tener que editar el código fuente
