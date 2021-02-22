@@ -76,7 +76,7 @@ ncat -nv $ip $puerto --ssl
 elif [ $tipo -eq "2" ]; then
 
 sleep 1
-
+	echo "PARA PONER OTRO NOMBRE SE DEBE EDITAR EL CÓDIGO FUENTE! En mantenimiento esta opción :/"
         echo "-----------------------------------------------"
 curl -s -X POST -d 'term=sebastian juan miguel piñera echeñique' --user-agent "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0" https://www.nombrerutyfirma.com/buscar | awk ' /<td>/ { gsub(/<\/?td>/, ""); gsub(/\t\t+/, ""); print }'
         echo "-----------------------------------------------"
