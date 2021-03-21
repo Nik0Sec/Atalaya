@@ -9,3 +9,8 @@ chmod +x ./Atalaya.sh
 
 sudo ./Atalaya.sh
 
+
+# Contacto 
+
+ ## https://t.me/Nik0_00101
+
